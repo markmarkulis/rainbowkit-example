@@ -10,7 +10,7 @@ import './js/crypto';
 import './js/main';
 
 const { chains, provider } = configureChains(
-  [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
+  [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum, chain.bsc],
   [alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }), publicProvider()]
 );
 
